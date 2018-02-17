@@ -24,7 +24,7 @@ module.exports = {
         })
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         include: SRC__DIR,
         use: [
           {
