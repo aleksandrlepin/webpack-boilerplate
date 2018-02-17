@@ -1,21 +1,8 @@
+$color-dark: rgb(104, 104, 211);
+
 body {
-    min-width: 320px;
-    margin: 0;
-    background-color: #fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-button {
-    margin: 5px;
-}
-
-.timer {
-    width: 70px;
-    height: 70px;
-}
-
-.time-counter {
-    font-size: 20px;
-    padding-top: 15px;
+  color: rgb(45, 185, 45);
+  background: $color-dark;
+  // background-image: url('../img/home-icon.png');
+  //background-position: center center;
 }
